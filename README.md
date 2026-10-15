@@ -45,12 +45,11 @@ The models were evaluated using:
 
 The final models achieved approximately:
 
-| Model | Accuracy |
-|-------|----------|
-| SVM | 86.41% |
-| Random Forest | 86.96% |
-| ANN | 86.41% |
-| CNN | 86.96% |
+SVM: 56.83% | confusion matrix: 104/183 | match=True
+Random Forest: 86.34% | confusion matrix: 158/183 | match=True
+ANN: 62.84% | confusion matrix: 115/183 | match=True
+CNN: 49.18% | confusion matrix: 90/183 | match=True
+
 
 Random Forest and CNN achieved the highest overall accuracy of approximately 86.96%.
 
